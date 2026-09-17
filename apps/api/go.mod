@@ -69,8 +69,8 @@ require (
 	golang.org/x/sync v0.23.0
 	gorm.io/datatypes v1.2.7
 	gorm.io/driver/mysql v1.6.0
-	gorm.io/driver/postgres v1.6.0
-	gorm.io/gorm v1.31.1
+	gorm.io/driver/postgres v1.6.2
+	gorm.io/gorm v1.31.2
 )
 
 require (
@@ -186,7 +186,7 @@ require (
 require (
 	// Pulled in by the MySQL driver; govulncheck flags releases before v1.1.1.
 	filippo.io/edwards25519 v1.2.0 // indirect
-	github.com/jackc/pgx/v5 v5.9.2 // indirect; GO-2026-5004
+	github.com/jackc/pgx/v5 v5.10.0 // indirect; GO-2026-5004
 	github.com/quic-go/quic-go v0.59.1 // indirect; GO-2026-5676, GO-2025-4233
 	// CVE-2026-33487: XML Digital Signature validation could be bypassed. On the
 	// SAML assertion path that is an authentication bypass, and crewjam/saml
